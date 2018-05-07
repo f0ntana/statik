@@ -1,31 +1,16 @@
 {
-  "name": "statik",
-  "version": "1.0.0",
-  "description": "A starter kit for static websites.",
-  "author": "Roberto Achar <robertoachar@gmail.com>",
-  "homepage": "https://github.com/robertoachar/statik#readme",
-  "keywords": ["node"],
-  "main": "src/index.js",
-  "files": ["src"],
-  "scripts": {
-    "lint": "eslint src/**/*.js",
-    "start": "browser-sync start --server \"src\" --files=\"src/**/*.*\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/robertoachar/statik.git"
-  },
-  "bugs": {
-    "url": "https://github.com/robertoachar/statik/issues"
-  },
+  "name": "statik-react",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "browser-sync": "2.23.7"
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4"
   },
-  "devDependencies": {
-    "eslint": "4.19.1",
-    "eslint-config-prettier": "2.9.0",
-    "eslint-plugin-prettier": "2.6.0",
-    "prettier": "1.12.1"
-  },
-  "license": "MIT"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
 }
